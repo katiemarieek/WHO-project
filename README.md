@@ -14,7 +14,11 @@ The aim of this project was to create a Machine Learning Model capable of predic
 
 ### Results
 
-We were able to produce a user interface to navigate our two models, taking the preferences of the user into consideration. Our results for our Accurace and Minimalist model are shown below
+We were able to produce a user interface to navigate our two models, taking the preferences of the user into consideration. Click below to try it for yourself!
+
+https://who-predictor.streamlit.app/
+
+Our results for our Accurate and Minimalist model are shown below.
 
 #### Accurate Model
 
@@ -33,4 +37,4 @@ _Here's a quick guide on how to navigate this rep:_
 There are three folders:
 * Code: Contains two files of python code, one pertaining to the EDA and Model Training process, and the other containing the functions built to hold the models.
 * Data: Contains two files, one containing the WHO data, and one containing metadata.
-* Streamlit: Contains two files, one containing the streamlit code for the User Interface and the second containing a dictionary to be used with the User Interface.
+* Streamlit: Contains three files, one containing the streamlit code for the User Interface, the second containing a pickled dictionary to be used with the User Interface, and the third all required modules as a requirements.txt file.
