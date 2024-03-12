@@ -145,7 +145,7 @@ def regression(region_dict):
             st.write("Life expectancy prediction (2dp): ", y_pred_round)
 
 # Call the function
-with open('Region_Dictionary.pkl', 'rb') as f:
+with open('Streamlit/Region_Dictionary.pkl', 'rb') as f:
     region_dict = pickle.load(f)
 
 regression(region_dict)
